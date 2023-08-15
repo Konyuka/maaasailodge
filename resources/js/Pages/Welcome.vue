@@ -1,15 +1,15 @@
 <script setup>
-import { Head, Link } from '@inertiajs/vue3';
+import Heroto from '@/Layouts/Heroto.vue';
+import { Head } from '@inertiajs/vue3';
+
 
 
 </script>
 
 <template>
-    <Head title="Massai-Lodge" />
+    <Heroto title="Massai-Lodge">
 
-    
+    </Heroto>
 </template>
 
-<style>
-
-</style>
+<style></style>
