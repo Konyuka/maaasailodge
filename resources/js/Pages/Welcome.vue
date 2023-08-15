@@ -7,7 +7,7 @@ import { Head } from '@inertiajs/vue3';
 </script>
 
 <template>
-    <Heroto title="Massai-Lodge">
+    <Heroto title="Maasai-Lodge">
 
     </Heroto>
 </template>
