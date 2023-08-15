@@ -8,6 +8,7 @@ import '../../heroto/js/owl.carousel.min.js';
 import '../../heroto/js/main.js';
 
 
+
 </script>
 
 <template>
@@ -16,12 +17,11 @@ import '../../heroto/js/main.js';
         <div id="preloder">
             <div class="loader"></div>
         </div>
-
         <slot />
     </div>
 </template>
 
-<style scoped>
+<style>
 @import '../../heroto/css/bootstrap.min.css'; 
 @import '../../heroto/css/font-awesome.min.css';
 @import '../../heroto/css/elegant-icons.css';
