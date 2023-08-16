@@ -3,7 +3,8 @@ import Heroto from '@/Layouts/Heroto.vue';
 import { Head } from '@inertiajs/vue3';
 
 import Navbar from '@/Components/Heroto/Navbar.vue'
-import Hero from '@/Components/Heroto/Hero.vue'
+import Landing from '@/Components/Heroto/Landing.vue'
+import Foota from '@/Components/Heroto/Footer.vue'
 
 </script>
 
@@ -12,7 +13,8 @@ import Hero from '@/Components/Heroto/Hero.vue'
 
     <Heroto>
         <Navbar />
-        <Hero />
+        <Landing />
+        <Foota />
     </Heroto>
 </template>
 
