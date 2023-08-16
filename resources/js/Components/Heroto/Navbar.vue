@@ -15,7 +15,7 @@
             </div>
             <div class="offcanvas__widget">
                 <ul>
-                    <li><span class="icon_pin_alt"></span> 96 Ernser Vista Suite 437, NY, US</li>
+                    <li><span class="icon_pin_alt"></span> Magadi road,</li>
                     <li><span class="icon_phone"></span> (123) 456-78-910</li>
                 </ul>
             </div>
@@ -42,13 +42,14 @@
             <div class="header__top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-7">
+                        <div class="col-lg-8">
                             <ul class="header__top__widget">
-                                <li><span class="icon_pin_alt"></span> 96 Ernser Vista Suite 437, NY, US</li>
-                                <li><span class="icon_phone"></span> (123) 456-78-910</li>
+                                <li><span class="icon_pin_alt"></span>Magadi Road, Ongata Rongai, Nairobi</li>
+                                <li><span class="icon_phone"></span> +254 723 160 888</li>
+                                <li><span class="icon_mail"></span> info@maasailodge.com</li>
                             </ul>
                         </div>
-                        <div class="col-lg-5">
+                        <div class="col-lg-4">
                             <div class="header__top__right">
                                 <div class="header__top__auth">
                                     <ul>
@@ -62,7 +63,7 @@
                                     <i class="fa fa-angle-down"></i>
                                     <ul>
                                         <li>English</li>
-                                        <li>Bangla</li>
+                                        <li>Swahili</li>
                                     </ul>
                                 </div>
                             </div>
@@ -84,16 +85,17 @@
                                     <ul class="menu__class">
                                         <li class="active"><a href="./index.html">Home</a></li>
                                         <li><a href="./rooms.html">Rooms</a></li>
+                                        <li><a href="./about.html">Our Services</a></li>
                                         <li><a href="./about.html">About Us</a></li>
-                                        <li><a href="#">Pages</a>
+                                        <!-- <li><a href="#">Pages</a>
                                             <ul class="dropdown">
                                                 <li><a href="./about.html">About Us</a></li>
                                                 <li><a href="./room-details.html">Room Details</a></li>
                                                 <li><a href="./blog-details.html">Blog Details</a></li>
                                             </ul>
-                                        </li>
-                                        <li><a href="./blog.html">News</a></li>
-                                        <li><a href="./contact.html">Contact</a></li>
+                                        </li> -->
+                                        <li><a href="./contact.html">Contact Us</a></li>
+                                        <li><a href="./blog.html">Media</a></li>
                                     </ul>
                                 </nav>
                                 <div class="header__nav__widget">
