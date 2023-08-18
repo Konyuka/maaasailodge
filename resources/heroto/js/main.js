@@ -1,13 +1,8 @@
-/*  ---------------------------------------------------
-  Template Name: Hiroto
-  Description:  Hiroto Hotel HTML Template
-  Author: Colorlib
-  Author URI: https://colorlib.com
-  Version: 1.0
-  Created: Colorlib
----------------------------------------------------------  */
+
 
 'use strict';
+
+
 
 (function ($) {
 
@@ -114,6 +109,7 @@
     /*--------------------------
         Testimonial Slider
     ----------------------------*/
+    console.log('test')
     var testimonialSlider = $(".testimonial__slider");
     testimonialSlider.owlCarousel({
         loop: true,

@@ -18,4 +18,6 @@ import Foota from '@/Components/Heroto/Footer.vue'
     </Heroto>
 </template>
 
-<style></style>
+<style>
+
+</style>

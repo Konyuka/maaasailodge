@@ -1,53 +1,55 @@
+<script>
+</script>
+
 <template>
     <div>
-
-        <!-- Hero Section Begin -->
-        <section class="hero spad set-bg hero-image">
+        <section class="hero spad set-bg" data-setbg="../../../heroto/img/maasai/3.jpg">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="hero__text">
-                            <h5>WELCOME HIROTO</h5>
-                            <h2>Experience the greatest for you holidays.</h2>
+
+
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+
+                    <div class="carousel-inner">
+
+                        <div class="row carousel-item active">
+                            <div class="col-lg-12 ">
+                                <div class="hero__text">
+                                    <h5>Maasai Lodge</h5>
+                                    <h2>Discover tranquility where nature is your retreat</h2>
+                                </div>
+
+                            </div>
                         </div>
-                        <form action="#" class="filter__form">
-                            <div class="filter__form__item filter__form__item--search">
-                                <p>Location</p>
-                                <div class="filter__form__input">
-                                    <input type="text" placeholder="Search Location">
-                                    <span class="icon_search"></span>
+                        <div class="row carousel-item">
+                            <div class="col-lg-12 ">
+                                <div class="hero__text">
+                                    <h5>Maasai Lodge</h5>
+                                    <h2>Experience the service you will not find anywhere else</h2>
                                 </div>
+
                             </div>
-                            <div class="filter__form__item">
-                                <p>Check In</p>
-                                <div class="filter__form__datepicker">
-                                    <span class="icon_calendar"></span>
-                                    <input type="text" class="datepicker_pop check__in">
-                                    <i class="arrow_carrot-down"></i>
+                        </div>
+                        <div class="row carousel-item">
+                            <div class="col-lg-12 ">
+                                <div class="hero__text">
+                                    <h5>Maasai Lodge</h5>
+                                    <h2>Your stay turns into more than a vacation</h2>
                                 </div>
+
                             </div>
-                            <div class="filter__form__item">
-                                <p>Check Out</p>
-                                <div class="filter__form__datepicker">
-                                    <span class="icon_calendar"></span>
-                                    <input type="text" class="datepicker_pop check__out">
-                                    <i class="arrow_carrot-down"></i>
-                                </div>
-                            </div>
-                            <div class="filter__form__item filter__form__item--select">
-                                <p>Person</p>
-                                <div class="filter__form__select">
-                                    <span class="icon_group"></span>
-                                    <select>
-                                        <option value="">2 Adult, 1 Children</option>
-                                        <option value="">2 Adult</option>
-                                        <option value="">1 Adult</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <button type="submit">BOOK NOW</button>
-                        </form>
+                        </div>
+
                     </div>
+                    <a style="color: black !important;" class="carousel-control-prev" href="#carouselExampleControls"
+                        role="button" data-slide="prev">
+                        <span style="color: black !important;" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
         </section>
@@ -72,12 +74,12 @@
                                 With over 40 years of peerless hospitality excellence in the wilderness, our
                                 main aim is to provide you with renowned personalized services in our beautiful facility.
                             </p>
-                            <img src="img/home-about/sign.png" alt="">
+                            <!-- <img src="../../../heroto/img/home-about/sign.png" alt=""> -->
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="home__about__pic">
-                            <img src="img/home-about/home-about.png" alt="">
+                            <img src="../../../heroto/img/maasai/try.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -91,50 +93,26 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="services__item">
-                            <img src="img/services/services-1.png" alt="">
-                            <h4>Free Wi-Fi</h4>
-                            <p>The massive investment in a hotel or resort requires constant reviews and control in order to
-                                make it a successful investment.</p>
+                            <img src="../../../heroto/img/maasai/accom.jpg" alt="">
+                            <h4>Accomodation</h4>
+                            <p>Comprised of single and double rooms, all the 14 manyatta shaped rooms are strategically
+                                designed to face the Nairobi national park. This will give you a unique experience.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="services__item">
-                            <img src="img/services/services-2.png" alt="">
-                            <h4>Premium Pool</h4>
-                            <p>Choose from 4 unique ready made concepts, let us help you create the concept perfect for you
-                                or let HCA.</p>
+                            <img src="../../../heroto/img/maasai/bar.jpg" alt="">
+                            <h4>Bar & Restaurant</h4>
+                            <p>Our restaurant & bar offers impeccable services giving you an opportunity to indulge in both
+                                local, international cuisines as you enjoy your favourite drink.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="services__item">
-                            <img src="img/services/services-3.png" alt="">
-                            <h4>Coffee Maker</h4>
-                            <p>HCA's Owner's Representation is taking care of just these important factors, may it be
-                                through regular site visits and spot checks.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="services__item">
-                            <img src="img/services/services-4.png" alt="">
-                            <h4>Bar Wine</h4>
-                            <p>For properties with third party management companies, HCA Consultants will as well administer
-                                the terms and conditions.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="services__item">
-                            <img src="img/services/services-5.png" alt="">
-                            <h4>TV HD</h4>
-                            <p>We provide a critical analysis of a hotel's marketing strategy, bench-marking it against
-                                industry and competitive practices.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="services__item">
-                            <img src="img/services/services-6.png" alt="">
-                            <h4>Restaurant</h4>
-                            <p>A hotel and restaurant investment deserves careful and market oriented financial planning and
-                                projections.</p>
+                            <img src="../../../heroto/img/maasai/conf.jpg" alt="">
+                            <h4>Conference Facilities</h4>
+                            <p>Away for the busy life of the city and with our professionally competent team, we offer the
+                                most serene environment for all levels of proffessional meetings covering your needs.</p>
                         </div>
                     </div>
                 </div>
@@ -148,7 +126,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title">
-                            <h5>OUR ROOM</h5>
+                            <h5>OUR ROOMS</h5>
                             <h2>Explore Our Hotel</h2>
                         </div>
                     </div>
@@ -156,40 +134,31 @@
             </div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                        <div class="home__room__item set-bg" data-setbg="img/home-room/hr-1.jpg">
+                    <div class="col-lg-4 col-md-6 col-sm-6 p-0">
+                        <div class="home__room__item set-bg" data-setbg="../../../heroto/img/maasai/parks.jpg">
                             <div class="home__room__title">
-                                <h4>Deluxe Room</h4>
-                                <h2><sup>$</sup>55<span>/day</span></h2>
+                                <h4>Park View Rooms</h4>
+                                <h2><sup>KES</sup> 10,000<span style="color: white;">/night</span></h2>
                             </div>
-                            <a href="#">Booking Now</a>
+                            <a href="#">View Details</a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                        <div class="home__room__item set-bg" data-setbg="img/home-room/hr-2.jpg">
+                    <div class="col-lg-4 col-md-6 col-sm-6 p-0">
+                        <div class="home__room__item set-bg" data-setbg="../../../heroto/img/maasai/garden.jpg">
                             <div class="home__room__title">
-                                <h4>Deluxe Room</h4>
-                                <h2><sup>$</sup>85<span>/day</span></h2>
+                                <h4>Garden View Rooms</h4>
+                                <h2><sup>KES</sup> 10,000<span style="color: white;">/night</span></h2>
                             </div>
-                            <a href="#">Booking Now</a>
+                            <a href="#">View Details</a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                        <div class="home__room__item set-bg" data-setbg="img/home-room/hr-3.jpg">
+                    <div class="col-lg-4 col-md-6 col-sm-6 p-0">
+                        <div class="home__room__item set-bg" data-setbg="../../../heroto/img/maasai/st.jpg">
                             <div class="home__room__title">
-                                <h4>Deluxe Room</h4>
-                                <h2><sup>$</sup>94<span>/day</span></h2>
+                                <h4>Standard Triple Rooms</h4>
+                                <h2><sup>KES</sup> 12,300<span style="color: white;">/night</span></h2>
                             </div>
-                            <a href="#">Booking Now</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                        <div class="home__room__item set-bg" data-setbg="img/home-room/hr-4.jpg">
-                            <div class="home__room__title">
-                                <h4>Deluxe Room</h4>
-                                <h2><sup>$</sup>71<span>/day</span></h2>
-                            </div>
-                            <a href="#">Booking Now</a>
+                            <a href="#">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -198,10 +167,10 @@
                 <div class="home__explore">
                     <div class="row">
                         <div class="col-lg-9 col-md-8">
-                            <h3>Planning your next trip? Save up to 25% on your hotel</h3>
+                            <h3>Unwind in Comfort: Where Every Stay is a Journey to Relaxation and Luxury</h3>
                         </div>
                         <div class="col-lg-3 col-md-4 text-center">
-                            <a href="#" class="primary-btn">Explorer More</a>
+                            <a href="#" class="primary-btn">Book a reservation</a>
                         </div>
                     </div>
                 </div>
@@ -215,7 +184,7 @@
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="testimonial__pic">
-                            <img src="img/testimonial-left.jpg" alt="">
+                            <img src="../../../heroto/img/maasai/test.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -225,7 +194,9 @@
                                 <h2>What do customers say about us?</h2>
                             </div>
                             <div class="testimonial__slider__content">
+
                                 <div class="testimonial__slider owl-carousel">
+
                                     <div class="testimonial__item">
                                         <h5>Detailed Review:</h5>
                                         <div class="rating">
@@ -235,28 +206,27 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                            fugiat nulla pariatur. Excepteur sint occaecat cupidat non proident, sunt in
-                                            culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
-                                            omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                        <p>Great place to relax and unwind with family. Good pool ample grounds. Best waiter
+                                            ( Mr. Simon) very professional and friendly great guest centred service.</p>
                                         <div class="testimonial__author">
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="testimonial__author__title">
-                                                        <h5>Ridchard Houston</h5>
-                                                        <span>Director Colorlib</span>
+                                                        <h5>Dorcas Marshall</h5>
+                                                        <span>Nairobi, Kenya</span>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-md-6">
+                                                <!-- <div class="col-lg-6 col-md-6">
                                                     <div class="testimonial__author__social">
                                                         <a href="#"><i class="fa fa-facebook"></i></a>
                                                         <a href="#"><i class="fa fa-twitter"></i></a>
                                                         <a href="#"><i class="fa fa-linkedin"></i></a>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="testimonial__item">
                                         <h5>Detailed Review:</h5>
                                         <div class="rating">
@@ -266,28 +236,29 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                            fugiat nulla pariatur. Excepteur sint occaecat cupidat non proident, sunt in
-                                            culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
-                                            omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                        <p>Beauty beyond measure, serenity with touch, background music accentuated by
+                                            running waterfall, in the wild edge of Nairobi National Park, Masai Lodge is a
+                                            rare grandeur. A must visit for those interested in seeing in it&#039;s simple
+                                            nature, Nairobi&#039;s best kept secret.</p>
                                         <div class="testimonial__author">
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="testimonial__author__title">
-                                                        <h5>John Smith</h5>
-                                                        <span>Director Colorlib</span>
+                                                        <h5>Bulle Jarso</h5>
+                                                        <span>Nairobi, Kenya</span>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-md-6">
+                                                <!-- <div class="col-lg-6 col-md-6">
                                                     <div class="testimonial__author__social">
                                                         <a href="#"><i class="fa fa-facebook"></i></a>
                                                         <a href="#"><i class="fa fa-twitter"></i></a>
                                                         <a href="#"><i class="fa fa-linkedin"></i></a>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="testimonial__item">
                                         <h5>Detailed Review:</h5>
                                         <div class="rating">
@@ -297,59 +268,29 @@
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                            fugiat nulla pariatur. Excepteur sint occaecat cupidat non proident, sunt in
-                                            culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
-                                            omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                        <p>A very peaceful place perfectly lodged at the edge of Nairobi National park. If
+                                            you&#039;re looking for tranquility, this is the place. The staff are very
+                                            friendly and the food tastes great. If you&#039;re planning to spend a night,
+                                            carry some warm clothes cuz it gets very cold in the evening.</p>
                                         <div class="testimonial__author">
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="testimonial__author__title">
-                                                        <h5>Jack Kelly</h5>
-                                                        <span>Director Colorlib</span>
+                                                        <h5>Id-Mwarabu</h5>
+                                                        <span>Local Guide</span>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-md-6">
+                                                <!-- <div class="col-lg-6 col-md-6">
                                                     <div class="testimonial__author__social">
                                                         <a href="#"><i class="fa fa-facebook"></i></a>
                                                         <a href="#"><i class="fa fa-twitter"></i></a>
                                                         <a href="#"><i class="fa fa-linkedin"></i></a>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="testimonial__item">
-                                        <h5>Detailed Review:</h5>
-                                        <div class="rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                            fugiat nulla pariatur. Excepteur sint occaecat cupidat non proident, sunt in
-                                            culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
-                                            omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                                        <div class="testimonial__author">
-                                            <div class="row">
-                                                <div class="col-lg-6 col-md-6">
-                                                    <div class="testimonial__author__title">
-                                                        <h5>Richard Hobson</h5>
-                                                        <span>Director Colorlib</span>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-6">
-                                                    <div class="testimonial__author__social">
-                                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
                                 <div class="slide-num" id="snh-1"></div>
                                 <div class="slider__progress"><span></span></div>
@@ -362,7 +303,7 @@
         <!-- Testimonial Section End -->
 
         <!-- Chooseus Section Begin -->
-        <div class="chooseus spad set-bg" data-setbg="img/chooseus-bg.jpg">
+        <div class="chooseus spad set-bg" data-setbg="../../../heroto/img/maasai/wine.jpg">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-8 text-center">
@@ -387,19 +328,19 @@
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="section-title">
                                 <h5>OUR GALLERY</h5>
-                                <h2>Explore The Most Beautiful In The Hotel</h2>
+                                <h2>Capturing Elegance in Every Frame</h2>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="gallery__title">
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                    nulla pariatur. Sunt in culpa qui officia deserunt mollit anim.</p>
-                                <a href="#" class="primary-btn">View Gallery <span class="arrow_right"></span></a>
+                             
+                                <a href="#" class="mt-5 primary-btn">View Gallery <span class="arrow_right"></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="gallery__slider owl-carousel">
                 <div class="gallery__item small__item set-bg" data-setbg="img/gallery/gallery-1.jpg"></div>
                 <div class="gallery__item set-bg" data-setbg="img/gallery/gallery-2.jpg"></div>
@@ -477,6 +418,18 @@
 
 <style scoped>
 .hero-image {
-    background-image: url("../../../heroto/img/hero.jpg");
+    background-image: url("../../../heroto/img/maasai/3.jpg");
 }
-</style>
+
+.room-1 {
+    background-image: url("../../../heroto/img/maasai/parks.jpg");
+}
+
+.room-2 {
+    background-image: url("../../../heroto/img/maasai/garden.jpg");
+}
+
+.room-3 {
+    background-image: url("../../../heroto/img/maasai/st.jpg");
+}</style>
+

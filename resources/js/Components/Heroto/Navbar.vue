@@ -18,7 +18,7 @@
                     <li><span class="icon_pin_alt"></span> Magadi road,</li>
                     <li><span class="icon_phone"></span> (123) 456-78-910</li>
                 </ul>
-            </div>
+            </div> 
             <div class="offcanvas__language">
                 <img src="img/lan.png" alt="">
                 <span>English</span>
@@ -39,54 +39,50 @@
 
         <!-- Header Section Begin -->
         <header class="header">
-            <div class="header__top">
+            <div style="background-color: black;" class="header__top fixed-top"> 
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8">
                             <ul class="header__top__widget">
-                                <li><span class="icon_pin_alt"></span>Magadi Road, Ongata Rongai, Nairobi</li>
-                                <li><span class="icon_phone"></span> +254 723 160 888</li>
-                                <li><span class="icon_mail"></span> info@maasailodge.com</li>
+                                <li style="color: white;"><span class="icon_pin_alt"></span>Magadi Road, Ongata Rongai, Nairobi</li>
+                                <li style="color: white;"><span class="icon_phone"></span> +254 723 160 888 </li>
+                                <li style="color: white;"><span class="icon_mail"></span> info@maasailodge.com</li>
                             </ul>
                         </div>
                         <div class="col-lg-4">
                             <div class="header__top__right">
                                 <div class="header__top__auth">
                                     <ul>
-                                        <li><a href="#">Login</a></li>
-                                        <li><a href="#">Register</a></li>
+                                        <li class="primary-color"><a href="https://www.facebook.com/MaasaiLodgeKenya" target="_blank"> <i class="fab fa-facebook primary-color fa-lg"></i> </a></li>
+                                        <li class="primary-color"><a href="https://www.instagram.com/masailodgeofficial/" target="_blank"> <i class="fab fa-instagram primary-color fa-lg"></i> </a></li>
+                                        <li class="primary-color"><a href="https://twitter.com/maasailodge" target="_blank"> <i class="fab fa-twitter primary-color fa-lg"></i> </a></li>
+                                        <li class="primary-color"><a href="https://www.tripadvisor.com/Hotel_Review-g294207-d1787285-Reviews-Masai_Lodge-Nairobi.html" target="_blank"> <i class="fa fa-tripadvisor primary-color fa-lg"></i> </a></li>
                                     </ul>
                                 </div>
-                                <div class="header__top__language">
-                                    <img src="img/lan.png" alt="">
-                                    <span>English</span>
-                                    <i class="fa fa-angle-down"></i>
-                                    <ul>
-                                        <li>English</li>
-                                        <li>Swahili</li>
-                                    </ul>
-                                </div>
+
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="header__nav__option">
+
+            <div style="background-color: white; margin-top: 40px;" class="header__nav__option">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="header__logo">
-                                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                                <a href="./index.html"><img src="img/log.png" alt=""></a>
                             </div>
                         </div>
-                        <div class="col-lg-10">
+                        <div class="col-lg-10" style="margin-top: 12px;">
                             <div class="header__nav">
                                 <nav class="header__menu">
                                     <ul class="menu__class">
                                         <li class="active"><a href="./index.html">Home</a></li>
-                                        <li><a href="./rooms.html">Rooms</a></li>
-                                        <li><a href="./about.html">Our Services</a></li>
-                                        <li><a href="./about.html">About Us</a></li>
+                                        <li><a style="color: black;" href="./rooms.html">Rooms</a></li>
+                                        <li><a style="color: black;" href="./about.html">Our Services</a></li>
+                                        <li><a style="color: black;" href="./about.html">About Us</a></li>
                                         <!-- <li><a href="#">Pages</a>
                                             <ul class="dropdown">
                                                 <li><a href="./about.html">About Us</a></li>
@@ -94,8 +90,9 @@
                                                 <li><a href="./blog-details.html">Blog Details</a></li>
                                             </ul>
                                         </li> -->
-                                        <li><a href="./contact.html">Contact Us</a></li>
-                                        <li><a href="./blog.html">Media</a></li>
+
+                                        <li><a style="color: black;" href="./contact.html">Contact Us</a></li>
+                                        <li><a style="color: black;" href="./blog.html">Media</a></li>
                                     </ul>
                                 </nav>
                                 <div class="header__nav__widget">
@@ -115,4 +112,9 @@
 </template>
 
 <style>
+.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 </style>
