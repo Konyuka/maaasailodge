@@ -1,9 +1,26 @@
-<script>
+<script setup>
+import LocomotiveScroll from 'locomotive-scroll';
+import { onMounted,ref } from 'vue';
+
+const initY = ref('')
+
+onMounted(()=>{
+    const scroll = new LocomotiveScroll({
+        el: document.querySelector('[data-scroll-container]'),
+        smooth: true
+    });
+    scroll.on('scroll', (e) => {
+        initY.value = e.scroll.y
+    });
+})
+
+
+
 </script>
 
 <template>
-    <div>
-        <section class="hero spad set-bg" data-setbg="../../../heroto/img/maasai/3.jpg">
+    <div data-scroll-container>
+        <section  class="hero spad set-bg" data-setbg="../../../heroto/img/maasai/3.jpg">
             <div class="container">
 
 
@@ -56,24 +73,27 @@
         <!-- Hero Section End -->
 
         <!-- Home About Section Begin -->
-        <section class="home-about">
+        <section class="home-about" >
             <div class="container">
-                <div class="row">
+                <div class="row" >
                     <div class="col-lg-6">
                         <div class="home__about__text">
-                            <div class="section-title">
+                            <div class="section-title" >
                                 <h5>WE LET NATURE SPEAK FOR US</h5>
                                 <h1>Maasai Lodge</h1>
                             </div>
-                            <p class="first-para">
-                                We let nature speak for us with breathtaking views of the Nairobi national park. Masai lodge
-                                offers warm hospitality and is located at the banks of Mbagathi river overlooking the
-                                national park.
-                            </p>
-                            <p class="last-para">
-                                With over 40 years of peerless hospitality excellence in the wilderness, our
-                                main aim is to provide you with renowned personalized services in our beautiful facility.
-                            </p>
+
+                            <div>
+                                <p class="first-para">
+                                    We let nature speak for us with breathtaking views of the Nairobi national park. Masai lodge
+                                    offers warm hospitality and is located at the banks of Mbagathi river overlooking the
+                                    national park.
+                                </p>
+                                <p class="last-para">
+                                    With over 40 years of peerless hospitality excellence in the wilderness, our
+                                    main aim is to provide you with renowned personalized services in our beautiful facility.
+                                </p>
+                            </div>
                             <!-- <img src="../../../heroto/img/home-about/sign.png" alt=""> -->
                         </div>
                     </div>
@@ -89,9 +109,9 @@
 
         <!-- Services Section Begin -->
         <section class="services spad">
-            <div class="container">
+            <div class="container" data-scroll-section>
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div  data-scroll data-scroll-speed="4" class="col-lg-4 col-md-4 col-sm-6">
                         <div class="services__item">
                             <img src="../../../heroto/img/maasai/accom.jpg" alt="">
                             <h4>Accomodation</h4>

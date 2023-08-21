@@ -36,10 +36,10 @@
                             <div class="footer__logo">
                                 <a href="#"><img src="img/logo.png" alt=""></a>
                             </div>
-                            <h4>(123) 456-78-91096</h4>
+                            <h4>+254 723 160 888</h4>
                             <ul>
-                                <li>Ernser Vista Suite 437, NY</li>
-                                <li>Info.colorlib@gmail.com</li>
+                                <li>Magadi Road, Ongata Rongai, Nairobi</li>
+                                <li>info@maasailodge.com</li>
                             </ul>
                             <div class="footer__social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
