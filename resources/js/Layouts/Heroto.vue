@@ -9,6 +9,10 @@
 @import '../../heroto/css/style.css';
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+@import 'wow.js/css/libs/animate.css';
+@import 'animate.css';
+
+
 </style>
 
 <template>
@@ -30,8 +34,12 @@ import '../../heroto/js/jquery.slicknav.js';
 import '../../heroto/js/owl.carousel.min.js';
 // import '../../heroto/js/main.js';
 
+import WOW from 'wow.js';
+
 onMounted(() => {
     initTemplateJs()
+    new WOW().init();
+    // new WOW.WOW().init();
 })
 onUpdated(() => {
     initTemplateJs()

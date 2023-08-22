@@ -43,7 +43,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8">
-                            <ul class="header__top__widget">
+                            <ul class="header__top__widget wow animate__pulse">
                                 <li style="color: white;"><span class="icon_pin_alt"></span>Magadi Road, Ongata Rongai, Nairobi</li>
                                 <li style="color: white;"><span class="icon_phone"></span> +254 723 160 888 </li>
                                 <li style="color: white;"><span class="icon_mail"></span> info@maasailodge.com</li>
@@ -53,10 +53,10 @@
                             <div class="header__top__right">
                                 <div class="header__top__auth">
                                     <ul>
-                                        <li class="primary-color"><a href="https://www.facebook.com/MaasaiLodgeKenya" target="_blank"> <i class="fab fa-facebook primary-color fa-lg"></i> </a></li>
-                                        <li class="primary-color"><a href="https://www.instagram.com/masailodgeofficial/" target="_blank"> <i class="fab fa-instagram primary-color fa-lg"></i> </a></li>
-                                        <li class="primary-color"><a href="https://twitter.com/maasailodge" target="_blank"> <i class="fab fa-twitter primary-color fa-lg"></i> </a></li>
-                                        <li class="primary-color"><a href="https://www.tripadvisor.com/Hotel_Review-g294207-d1787285-Reviews-Masai_Lodge-Nairobi.html" target="_blank"> <i class="fa fa-tripadvisor primary-color fa-lg"></i> </a></li>
+                                        <li class="primary-color wow animate__pulse"><a href="https://www.facebook.com/MaasaiLodgeKenya" target="_blank"> <i class="fab fa-facebook primary-color fa-lg"></i> </a></li>
+                                        <li class="primary-color wow animate__pulse"><a href="https://www.instagram.com/masailodgeofficial/" target="_blank"> <i class="fab fa-instagram primary-color fa-lg"></i> </a></li>
+                                        <li class="primary-color wow animate__pulse"><a href="https://twitter.com/maasailodge" target="_blank"> <i class="fab fa-twitter primary-color fa-lg"></i> </a></li>
+                                        <li class="primary-color wow animate__pulse"><a href="https://www.tripadvisor.com/Hotel_Review-g294207-d1787285-Reviews-Masai_Lodge-Nairobi.html" target="_blank"> <i class="fa fa-tripadvisor primary-color fa-lg"></i> </a></li>
                                     </ul>
                                 </div>
 

@@ -5,7 +5,7 @@
 <template>
     <!-- Footer Section Begin -->
     <div class="footer set-bg" data-setbg="img/footer-bg.jpg">
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="logo__carousel owl-carousel">
@@ -27,26 +27,21 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="container">
             <div class="footer__content">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="footer__about">
                             <div class="footer__logo">
-                                <a href="#"><img src="img/logo.png" alt=""></a>
+                                <a href="#"><img src="img/log.png" alt=""></a>
                             </div>
-                            <h4>+254 723 160 888</h4>
                             <ul>
-                                <li>Magadi Road, Ongata Rongai, Nairobi</li>
-                                <li>info@maasailodge.com</li>
+                                <h4>+254 723 160 888</h4>
+                                <h4>info@maasailodge.com</h4>
+                                <h4>Magadi Road, Ongata Rongai</h4>
                             </ul>
-                            <div class="footer__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-youtube-play"></i></a>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="col-lg-3 offset-lg-1 col-md-5 offset-md-1 col-sm-6">
@@ -79,9 +74,9 @@
                                 <h5>Find Us:</h5>
                                 <div class="footer__newslatter__find__links">
                                     <a href="#"><i class="fa fa-tripadvisor"></i></a>
-                                    <a href="#"><i class="fa fa-map-o"></i></a>
-                                    <a href="#"><i class="fa fa-dribbble"></i></a>
-                                    <a href="#"><i class="fa fa-forumbee"></i></a>
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>

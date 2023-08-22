@@ -20,7 +20,9 @@
         "vue": "^3.2.31"
     },
     "dependencies": {
+        "animate.css": "^4.1.1",
         "jquery": "^3.7.0",
-        "locomotive-scroll": "^4.1.4"
+        "locomotive-scroll": "^4.1.4",
+        "wow.js": "^1.2.2"
     }
 }
