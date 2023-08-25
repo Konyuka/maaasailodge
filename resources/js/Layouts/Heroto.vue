@@ -31,7 +31,7 @@ import '../../heroto/js/bootstrap.min.js';
 import '../../heroto/js/jquery.nice-select.min.js';
 import '../../heroto/js/jquery-ui.min.js';
 import '../../heroto/js/jquery.slicknav.js';
-import '../../heroto/js/owl.carousel.min.js';
+import '../../heroto/js/owl.carousel.min.js'; 
 // import '../../heroto/js/main.js';
 
 import WOW from 'wow.js';
@@ -151,7 +151,6 @@ const initTemplateJs = () => {
         /*--------------------------
             Testimonial Slider
         ----------------------------*/
-        console.log('test')
         var testimonialSlider = $(".testimonial__slider");
         testimonialSlider.owlCarousel({
             loop: true,
