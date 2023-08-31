@@ -1,18 +1,4 @@
 <script setup>
-import LocomotiveScroll from 'locomotive-scroll';
-import { onMounted, ref } from 'vue';
-
-// const initY = ref('')
-
-// onMounted(()=>{
-//     const scroll = new LocomotiveScroll({
-//         el: document.querySelector('[data-scroll-container]'),
-//         smooth: true
-//     });
-//     scroll.on('scroll', (e) => {
-//         initY.value = e.scroll.y
-//     });
-// })
 
 </script>
 

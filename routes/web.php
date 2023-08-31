@@ -7,7 +7,24 @@ use Inertia\Inertia;
 
 Route::get('/', function () {
     return Inertia::render('Home');
-});
+})->name('home');
+
+
+Route::get('/our-rooms', function () {
+    return Inertia::render('Rooms');
+})->name('rooms');
+Route::get('/our-services', function () {
+    return Inertia::render('Services');
+})->name('services');
+Route::get('/about-us', function () {
+    return Inertia::render('About');
+})->name('about');
+Route::get('/contact-us', function () {
+    return Inertia::render('Contact');
+})->name('contact');
+Route::get('/blogs-and-gallery', function () {
+    return Inertia::render('Media');
+})->name('media');
 
 Route::middleware([
     'auth:sanctum',

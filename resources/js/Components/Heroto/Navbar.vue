@@ -1,4 +1,6 @@
 <script setup>
+import { Link } from "@inertiajs/vue3";
+
 </script>
 
 <template>
@@ -72,17 +74,17 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="header__logo">
-                                <a href="./index.html"><img src="img/log.png" alt=""></a>
+                                <Link to="/"><img src="img/log.png" alt=""></Link>
                             </div>
                         </div>
                         <div class="col-lg-10" style="margin-top: 12px;">
                             <div class="header__nav">
                                 <nav class="header__menu">
                                     <ul class="menu__class">
-                                        <li class="active"><a href="./index.html">Home</a></li>
-                                        <li><a style="color: black;" href="./rooms.html">Rooms</a></li>
-                                        <li><a style="color: black;" href="./about.html">Our Services</a></li>
-                                        <li><a style="color: black;" href="./about.html">About Us</a></li>
+                                        <li to="/contact-us" class="active"><Link :href="route('home')">Home</Link></li>
+                                        <li><Link style="color: black;" :href="route('rooms')">Rooms</Link></li>
+                                        <li><Link style="color: black;" :href="route('services')">Our Services</Link></li>
+                                        <li><Link style="color: black;" :href="route('about')">About Us</Link></li>
                                         <!-- <li><a href="#">Pages</a>
                                             <ul class="dropdown">
                                                 <li><a href="./about.html">About Us</a></li>
@@ -91,8 +93,8 @@
                                             </ul>
                                         </li> -->
 
-                                        <li><a style="color: black;" href="./contact.html">Contact Us</a></li>
-                                        <li><a style="color: black;" href="./blog.html">Media</a></li>
+                                        <li><Link style="color: black;" :href="route('contact')">Contact Us</Link></li>
+                                        <li><Link style="color: black;" :href="route('media')">Media</Link></li>
                                     </ul>
                                 </nav>
                                 <div class="header__nav__widget">
