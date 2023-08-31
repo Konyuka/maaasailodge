@@ -13,6 +13,9 @@ Route::get('/', function () {
 Route::get('/our-rooms', function () {
     return Inertia::render('Rooms');
 })->name('rooms');
+Route::get('/room-details', function () {
+    return Inertia::render('Details');
+})->name('room.detail');
 Route::get('/our-services', function () {
     return Inertia::render('Services');
 })->name('services');

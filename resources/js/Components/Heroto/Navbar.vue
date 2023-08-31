@@ -1,5 +1,10 @@
 <script setup>
 import { Link } from "@inertiajs/vue3";
+import { computed } from "vue";
+
+const currentPath = computed(()=>{
+    return window.location.pathname;
+})
 
 </script>
 
@@ -81,10 +86,10 @@ import { Link } from "@inertiajs/vue3";
                             <div class="header__nav">
                                 <nav class="header__menu">
                                     <ul class="menu__class">
-                                        <li to="/contact-us" class="active"><Link :href="route('home')">Home</Link></li>
-                                        <li><Link style="color: black;" :href="route('rooms')">Rooms</Link></li>
-                                        <li><Link style="color: black;" :href="route('services')">Our Services</Link></li>
-                                        <li><Link style="color: black;" :href="route('about')">About Us</Link></li>
+                                        <li><Link :class="[currentPath == '/' ? 'primary-color' : 'black-color']" :href="route('home')">Home</Link></li>
+                                        <li><Link :class="[ currentPath == '/our-rooms' ? 'primary-color': 'black-color' ]"  :href="route('rooms')">Rooms</Link></li>
+                                        <li><Link :class="[ currentPath == '/our-services' ? 'primary-color': 'black-color' ]"  :href="route('services')">Our Services</Link></li>
+                                        <li><Link :class="[ currentPath == '/about-us' ? 'primary-color': 'black-color' ]"  :href="route('about')">About Us</Link></li>
                                         <!-- <li><a href="#">Pages</a>
                                             <ul class="dropdown">
                                                 <li><a href="./about.html">About Us</a></li>
@@ -92,9 +97,10 @@ import { Link } from "@inertiajs/vue3";
                                                 <li><a href="./blog-details.html">Blog Details</a></li>
                                             </ul>
                                         </li> -->
+                                        
 
-                                        <li><Link style="color: black;" :href="route('contact')">Contact Us</Link></li>
-                                        <li><Link style="color: black;" :href="route('media')">Media</Link></li>
+                                        <li><Link :class="[ currentPath == '/contact-us' ? 'primary-color': 'black-color' ]"  :href="route('contact')">Contact Us</Link></li>
+                                        <li><Link :class="[ currentPath == '/blogs-and-gallery' ? 'primary-color': 'black-color' ]"  :href="route('media')">Media</Link></li>
                                     </ul>
                                 </nav>
                                 <div class="header__nav__widget">
@@ -118,5 +124,13 @@ import { Link } from "@inertiajs/vue3";
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.black-color{
+    color: black !important; 
+}
+.primary-color{
+    color: #E9AD28 !important; 
+    font-weight: 600;
 }
 </style>

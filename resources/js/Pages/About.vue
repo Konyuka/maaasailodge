@@ -117,7 +117,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="services__item">
-                            <img src="img/services/services-1.png" alt="">
+                            <img src="/heroto/img/maasai/icons/1.png" alt="">
                             <h4>Accomodation</h4>
                             <p>Comprised of single and double rooms, all the 14 manyatta shaped rooms are strategically
                                 designed to face the Nairobi national park.</p>
@@ -125,7 +125,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="services__item">
-                            <img src="img/services/services-2.png" alt="">
+                            <img src="/heroto/img/maasai/icons/2.png" alt="">
                             <h4>Restaurant</h4>
                             <p>Offering quality services to let you taste both local, international cuisines & our
                                 sought-after traditional marinated nyama choma.</p>
@@ -133,7 +133,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="services__item">
-                            <img src="img/services/services-3.png" alt="">
+                            <img src="/heroto/img/maasai/icons/4.png" alt="">
                             <h4>Bar</h4>
                             <p>Relax and enjoy a glass of your favourite drink with a serene view of the park at our bar
                                 which has an extensive menu to chose from.</p>
@@ -141,7 +141,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="services__item">
-                            <img src="img/services/services-4.png" alt="">
+                            <img src="/heroto/img/maasai/icons/3.png" alt="">
                             <h4>Conference Facilities</h4>
                             <p>With our professionally competent team, we offer the most serene environment for all levels
                                 of proffessional meetings covering your needs.</p>
@@ -149,7 +149,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="services__item">
-                            <img src="img/services/services-5.png" alt="">
+                            <img src="/heroto/img/maasai/icons/5.png" alt="">
                             <h4>Swimming Pool</h4>
                             <p>Our fascinating open air swimming pool is crystal clean and ideal for all age groups and
                                 operational from 8am to 6pm.</p>
@@ -157,7 +157,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="services__item">
-                            <img src="img/services/services-6.png" alt="">
+                            <img src="/heroto/img/maasai/icons/6.png" alt="">
                             <h4>Team Building</h4>
                             <p>Efficiently achieve your company’s purpose and goals through our team bonding activities
                                 coordinated by our professional facilitator.</p>
@@ -169,7 +169,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
         <!-- About Section End -->
 
         <!-- Chooseus Section Begin -->
-        <div class="chooseus spad set-bg" data-setbg="./heroto/img/maasai/swimo.jpg">
+        <div style="margin-bottom: 150px;" class="chooseus spad set-bg" data-setbg="./heroto/img/maasai/swimo.jpg">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-8 text-center">
@@ -183,11 +183,12 @@ import Foota from '@/Components/Heroto/Footer.vue'
                     </div>
                 </div>
             </div>
+            <div class="mb-5"></div>
         </div>
         <!-- Chooseus Section End -->
 
         <!-- History Section Begin -->
-        <section class="history spad">
+        <!-- <section class="history spad">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -238,9 +239,10 @@ import Foota from '@/Components/Heroto/Footer.vue'
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- History Section End -->
-        <Foota />
+
+        <Foota  />
     </Heroto>
 </template>
 

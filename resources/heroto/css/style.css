@@ -971,6 +971,10 @@ ol {
 	height: 700px;
 }
 
+.photos__item {
+	height: 500px;
+}
+
 /*---------------------
   Latest Blog
 -----------------------*/
@@ -1120,11 +1124,16 @@ ol {
 }
 
 .room__text h2 sup {
-	font-size: 20px;
+	font-size: 15px;
 	position: absolute;
 	left: 0;
-	top: 15px;
+	top: 5px;
 	color: #1d1c1c;
+
+	/* font-size: 15px;
+    position: absolute;
+    left: 0;
+    top: 5px; */
 }
 
 .room__text h2 span {

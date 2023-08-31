@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="breadcrumb__text">
-                            <h1 style="color: black;">Contact Us</h1>
+                            <h1>Contact Us</h1>
                         </div>
                     </div>
                 </div>
