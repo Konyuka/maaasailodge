@@ -21,8 +21,8 @@ import Foota from '@/Components/Heroto/Footer.vue'
                         <div class="room__details__content">
 
                             <div class="room__details__title">
-                                <h2>Premium King Room</h2>
-                                <a href="#" class="primary-btn">Booking Now</a>
+                                <h2>Premium Room</h2>
+                                <a href="#" class="primary-btn">Book a Reservation</a>
                             </div>
                             <div class="room__details__desc">
                                 <h2>Description:</h2>

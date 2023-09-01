@@ -1,9 +1,9 @@
 <script setup>
 import Heroto from '@/Layouts/Heroto.vue';
-import { Head, Link } from '@inertiajs/vue3';
-
+import { Head } from '@inertiajs/vue3';
+import VueDatePicker from '@vuepic/vue-datepicker';
+import '@vuepic/vue-datepicker/dist/main.css'
 import Navbar from '@/Components/Heroto/Navbar.vue'
-import Landing from '@/Components/Heroto/Landing.vue'
 import Foota from '@/Components/Heroto/Footer.vue'
 
 </script>
@@ -14,18 +14,93 @@ import Foota from '@/Components/Heroto/Footer.vue'
     <Heroto>
         <Navbar />
         <!-- Breadcrumb Begin -->
-        <div class="breadcrumb-option set-bg" data-setbg="img/breadcrumb-bg.jpg">
+        <div class="breadcrumb-option set-bg" data-setbg="./heroto/img/maasai/contact.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="breadcrumb__text">
-                            <h1>Our Rooms</h1>
+                            <h1>Booking</h1>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Breadcrumb End -->
+
+        <!-- Contact Section Begin -->
+        <section class="contact spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-5">
+                        <div class="contact__form">
+                            <h2>Check Availability</h2>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="exampleInputEmail1">Check-in Date</label>
+                                    <VueDatePicker v-model="date"></VueDatePicker>
+                                </div>
+                                <div class="col-6">
+                                    <label for="exampleInputEmail1">Check-out Date</label>
+                                    <VueDatePicker v-model="date"></VueDatePicker>
+                                </div>
+                            </div>
+
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <label for="exampleInputEmail1">Number of Adults</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <small id="emailHelp" class="form-text text-muted">Number Input</small>
+                                </div>
+                                <div class="col-6">
+                                    <label for="exampleInputEmail1">Number of Children</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <small id="emailHelp" class="form-text text-muted">Number Input</small>
+                                </div>
+                            </div>
+
+
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <select class="w-full">
+                                        <option selected>Select Room</option>
+                                        <option value="1">Park View Rooms</option>
+                                        <option value="2">Garden View Rooms</option>
+                                        <option value="3">Standard Triple Rooms</option>
+                                    </select>
+                                </div>
+                                <div class="col-6">
+                                    <!-- <p> Scroll to view the rooms <i class="fas fa-angle-down"></i> </p> -->
+                                </div>
+                            </div>
+
+
+                            <div class="row mt-5">
+                                <a href="#" class="primary-btn" data-v-09bd9859="">Confirm Availability <i
+                                        class="fas fa-eye"></i> </a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="mt-5 mt-md-0 col-lg-6 offset-lg-1 col-md-6 col-sm-7">
+                        <div class="contact__form">
+                            <h2>Any question?</h2>
+                            <form action="#">
+                                <input type="text" placeholder="Your Name">
+                                <input type="number" placeholder="Phone Number">
+                                <input type="email" placeholder="Email Address">
+                                <textarea placeholder="Your Message"></textarea>
+                                <button type="submit">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section End -->
 
         <!-- Rooms Section Begin -->
         <section class="rooms spad">
@@ -98,14 +173,13 @@ import Foota from '@/Components/Heroto/Footer.vue'
                         </div>
                     </div>
 
-                    
+
                 </div>
 
             </div>
         </section>
         <!-- Rooms Section End -->
 
-        
         <Foota />
     </Heroto>
 </template>

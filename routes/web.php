@@ -28,6 +28,9 @@ Route::get('/contact-us', function () {
 Route::get('/blogs-and-gallery', function () {
     return Inertia::render('Media');
 })->name('media');
+Route::get('/booking', function () {
+    return Inertia::render('Booking');
+})->name('booking');
 
 Route::middleware([
     'auth:sanctum',

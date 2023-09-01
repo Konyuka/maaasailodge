@@ -1,11 +1,12 @@
 <script setup>
+import { Link } from "@inertiajs/vue3"
 
 </script>
 
 <template>
     <div>
-        <section class="hero spad set-bg" data-setbg="../../../heroto/img/maasai/3.jpg">
-            <div class="container">
+        <section class="hero spad set-bg" data-setbg="../../../heroto/img/maasai/33.jpg">
+            <div class="">
 
 
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -17,9 +18,9 @@
                             <div class="col-lg-12 ">
                                 <div class="hero__text">
                                     <h5 class="wow slideInLeft" data-wow-duration="2s">Maasai Lodge</h5>
-                                    <h2 class="wow slideInRight" data-wow-duration="2s">Discover tranquility where nature is
+                                    <h2 class="wow slideInRight mobile-text" data-wow-duration="2s">Discover tranquility where nature is
                                         your retreat</h2>
-                                </div>
+                                </div> 
 
                             </div>
                         </div>
@@ -27,7 +28,7 @@
                             <div class="col-lg-12 ">
                                 <div class="hero__text">
                                     <h5 class="wow slideInRight" data-wow-duration="2s">Maasai Lodge</h5>
-                                    <h2 class="wow slideInLeft" data-wow-duration="2s">Experience the service you will not
+                                    <h2 class="wow slideInLeft mobile-text" data-wow-duration="2s">Experience the service you will not
                                         find anywhere else</h2>
                                 </div>
 
@@ -37,7 +38,7 @@
                             <div class="col-lg-12 ">
                                 <div class="hero__text">
                                     <h5 class="wow slideInLeft" data-wow-duration="2s">Maasai Lodge</h5>
-                                    <h2 class="wow slideInRight" data-wow-duration="2s">Your stay turns into more than a
+                                    <h2 class="wow slideInRight mobile-text" data-wow-duration="2s">Your stay turns into more than a
                                         vacation</h2>
                                 </div>
 
@@ -182,7 +183,7 @@
                             <h3>Unwind in Comfort: Where Every Stay is a Journey to Relaxation and Luxury</h3>
                         </div>
                         <div class="col-lg-3 col-md-4 text-center">
-                            <a href="#" class="primary-btn">Book a reservation</a>
+                            <Link :href="route('booking')" class="primary-btn">Book a reservation</Link>
                         </div>
                     </div>
                 </div>
@@ -454,5 +455,15 @@
 
 .room-3 {
     background-image: url("../../../heroto/img/maasai/st.jpg");
-}</style>
+}
+
+
+@media (max-width: 767px) {
+  .mobile-text{
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+</style>
 

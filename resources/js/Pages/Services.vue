@@ -29,7 +29,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
         <!-- Breadcrumb End -->
 
         <section class="py-5">
-            <div class="px-5">
+            <div class="px-md-5">
                 <div class="row align-items-center">
                     <div class="col-md-12 col-lg-6 ml-auto order-lg-2 position-relative mb-5 aos-init aos-animate"
                         data-aos="fade-up">
@@ -45,7 +45,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
                             double, twin and triple rooms. All the 27 Manyatta shaped rooms have captivating ambience that
                             instantly triggers relaxation.
                         </p>
-                        <a href="#" class="primary-btn" data-v-09bd9859="">Book Now</a>
+                        <a href="#" class="primary-btn mb-5" data-v-09bd9859="">Book Now</a>
                     </div>
 
                 </div>
@@ -125,7 +125,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
-                                        <div class="blog__details__share">
+                                        <div class="ml-3 blog__details__share">
                                             <span>Share:</span>
                                             <a href="#"><i class="fa fa-facebook"></i></a>
                                             <a href="#"><i class="fa fa-twitter"></i></a>

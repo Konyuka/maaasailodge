@@ -14,7 +14,7 @@ const currentPath = computed(()=>{
         <div class="offcanvas-menu-overlay"></div>
         <div class="offcanvas-menu-wrapper">
             <div class="offcanvas__logo">
-                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                <a href="./index.html"><img src="img/log.png" alt=""></a>
             </div>
             <div id="mobile-menu-wrap"></div>
             <div class="offcanvas__btn__widget">
@@ -22,25 +22,12 @@ const currentPath = computed(()=>{
             </div>
             <div class="offcanvas__widget">
                 <ul>
-                    <li><span class="icon_pin_alt"></span> Magadi road,</li>
-                    <li><span class="icon_phone"></span> (123) 456-78-910</li>
+                    <li class="text-dark mb-1"><span class="icon_phone"></span> +254 723 160 888</li>
+                    <li class="text-dark mb-1"><span class="icon_mail"></span> info@maasailodge.com</li>
+                    <li class="text-dark mb-1"><span class="icon_pin_alt"></span> Magadi road, <br>  <span class="text-dark ml-4">Ongata Rongai, Nairobi</span></li>
                 </ul>
             </div> 
-            <div class="offcanvas__language">
-                <img src="img/lan.png" alt="">
-                <span>English</span>
-                <i class="fa fa-angle-down"></i>
-                <ul>
-                    <li>English</li>
-                    <li>Bangla</li>
-                </ul>
-            </div>
-            <div class="offcanvas__auth">
-                <ul>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Register</a></li>
-                </ul>
-            </div>
+            
         </div>
         <!-- Offcanvas Menu End -->
 
@@ -74,12 +61,12 @@ const currentPath = computed(()=>{
                 </div>
             </div>
 
-            <div style="background-color: white; margin-top: 40px;" class="header__nav__option">
+            <div style="background-color: white;" class="menu-margin header__nav__option">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="header__logo">
-                                <Link to="/"><img src="img/log.png" alt=""></Link>
+                                <Link to="/"><img class="mobile-height" src="img/log.png" alt=""></Link>
                             </div>
                         </div>
                         <div class="col-lg-10" style="margin-top: 12px;">
@@ -104,13 +91,13 @@ const currentPath = computed(()=>{
                                     </ul>
                                 </nav>
                                 <div class="header__nav__widget">
-                                    <a href="#">Book Now <span class="arrow_right"></span></a>
+                                    <Link :href="route('booking')">Book Now <span class="arrow_right"></span></Link>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="canvas__open">
-                        <span class="fa fa-bars"></span>
+                        <span class="fa fa-bars text-dark"></span>
                     </div>
                 </div>
             </div>
@@ -132,5 +119,21 @@ const currentPath = computed(()=>{
 .primary-color{
     color: #E9AD28 !important; 
     font-weight: 600;
+}
+
+.menu-margin{
+    margin-top: 40px;
+}
+
+@media (max-width: 767px) {
+  .menu-margin {
+    margin-top: 0px !important;
+  }
+  .mobile-height{
+    height: 60px;
+  }
+  .mobile-text{
+    font-size: 10px;
+  }
 }
 </style>

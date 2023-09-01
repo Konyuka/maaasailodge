@@ -20,6 +20,8 @@
         "vue": "^3.2.31"
     },
     "dependencies": {
+        "@formkit/vue": "^0.20.0-ad6057e",
+        "@vuepic/vue-datepicker": "^6.0.2",
         "animate.css": "^4.1.1",
         "jquery": "^3.7.0",
         "locomotive-scroll": "^4.1.4",

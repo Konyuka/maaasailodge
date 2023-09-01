@@ -5,11 +5,8 @@ import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { ZiggyVue } from '../../vendor/tightenco/ziggy/dist/vue.m';
-import LocomotiveScroll from 'locomotive-scroll';
-// const scroll = new LocomotiveScroll({
-//     el: document.querySelector('[data-scroll-container]'),
-//     smooth: true
-// });
+// import { plugin as formkitPlugin, defaultConfig as formkitConfig } from "@formkit/vue";
+// import "@formkit/themes/genesis";
 
 const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
 
@@ -20,10 +17,10 @@ createInertiaApp({
         return createApp({ render: () => h(App, props) })
             .use(plugin)
             .use(ZiggyVue)
-            // .use(scroll)
+            // .use(formkitPlugin, formkitConfig)
             .mount(el);
     },
     progress: {
-        color: '#4B5563',
+        color: '#fff',
     },
 });
