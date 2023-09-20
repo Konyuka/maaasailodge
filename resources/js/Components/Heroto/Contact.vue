@@ -1,4 +1,23 @@
-<script setup></script>
+<script setup>
+import { useForm } from "@inertiajs/vue3"
+
+const form = useForm({
+    name:null,
+    phone:null,
+    email:null,
+    message:null
+});
+
+const submitForm = () => {
+    form.post(route('contact.form'), {
+        onSuccess: () => {
+            alert('We will reach out in a few')
+            form.reset()
+        }
+    })
+}
+
+</script>
 
 <template>
     <div>
@@ -61,11 +80,11 @@
                     <div class="col-lg-6 offset-lg-1 col-md-6 col-sm-7">
                         <div class="contact__form">
                             <h2>Your question?</h2>
-                            <form action="#">
-                                <input type="text" placeholder="Your Name">
-                                <input type="number" placeholder="Phone Number">
-                                <input type="email" placeholder="Email Address">
-                                <textarea placeholder="Your Message"></textarea>
+                            <form @submit.prevent="submitForm">
+                                <input required v-model="form.name" type="text" placeholder="Your Name">
+                                <input required v-model="form.phone" type="number" placeholder="Phone Number">
+                                <input v-model="form.email" type="email" placeholder="Email Address">
+                                <textarea required v-model="form.message" placeholder="Your Message"></textarea>
                                 <button type="submit">Send Message</button>
                             </form>
                         </div>

@@ -4,6 +4,10 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
+use App\Http\Controllers\ContactFormController;
+use App\Http\Controllers\BookingController;
+
+
 
 Route::get('/', function () {
     return Inertia::render('Home');
@@ -31,6 +35,9 @@ Route::get('/blogs-and-gallery', function () {
 Route::get('/booking', function () {
     return Inertia::render('Booking');
 })->name('booking');
+
+Route::post('/submit-contact-form', [ContactFormController::class, 'submitContactForm'])->name('contact.form');
+Route::post('/submit-booking-form', [BookingController::class, 'submitBookingForm'])->name('submit.booking');
 
 Route::middleware([
     'auth:sanctum',
