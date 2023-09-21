@@ -1,5 +1,5 @@
 <script setup>
-import { useForm } from "@inertiajs/vue3"
+import { useForm } from "@inertiajs/vue3";
 
 const form = useForm({
     name:null,
@@ -27,7 +27,7 @@ const submitForm = () => {
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <div class="breadcrumb__text">
+                        <div class="breadcrumb__text wow slideInLeft" data-wow-duration="2s">
                             <h1>Contact Us</h1>
                         </div>
                     </div>

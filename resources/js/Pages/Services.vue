@@ -1,6 +1,6 @@
 <script setup>
 import Heroto from '@/Layouts/Heroto.vue';
-import { Head } from '@inertiajs/vue3';
+import { Head, Link } from '@inertiajs/vue3';
 
 import Navbar from '@/Components/Heroto/Navbar.vue'
 import Landing from '@/Components/Heroto/Landing.vue'
@@ -19,7 +19,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <div class="breadcrumb__text">
+                        <div class="breadcrumb__text wow slideInLeft" data-wow-duration="2s">
                             <h1>Our Services</h1>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
                     <div class="col-md-12 col-lg-6 ml-auto order-lg-2 position-relative mb-5 aos-init aos-animate"
                         data-aos="fade-up">
                         <figure class="img-absolute">
-                            <img src="/heroto/img/maasai/acom.jpg" alt="Image" class="h-100 w-100 img-fluid">
+                            <img src="/heroto/img/maasai/acom.jpg" alt="Image" data-wow-duration="2s" class="wow animate__bounce h-100 w-100 img-fluid">
                         </figure>
                     </div>
                     <div class="col-md-12 col-lg-6 order-lg-1 aos-init aos-animate text-center" data-aos="fade-up">
@@ -45,7 +45,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
                             double, twin and triple rooms. All the 27 Manyatta shaped rooms have captivating ambience that
                             instantly triggers relaxation.
                         </p>
-                        <a href="#" class="primary-btn mb-5" data-v-09bd9859="">Book Now</a>
+                        <Link :href="route('booking')" class="wow slideInLeft primary-btn mb-5" data-wow-duration="1s" data-wow-delay="1s">Book Now</Link>
                     </div>
 
                 </div>
@@ -53,7 +53,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
                     <div class="col-md-12 col-lg-6 ml-auto order-lg-1 position-relative mb-5 aos-init aos-animate"
                         data-aos="fade-up">
                         <figure class="img-absolute">
-                            <img src="/heroto/img/maasai/res.jpg" alt="Image" class="h-100 w-100 img-fluid">
+                            <img src="/heroto/img/maasai/res.jpg" alt="Image" data-wow-duration="2s" class="wow animate__bounce h-100 w-100 img-fluid">
                         </figure>
                     </div>
                     <div class="col-md-12 col-lg-6 order-lg-2 aos-init aos-animate text-center" data-aos="fade-up">
@@ -62,7 +62,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
                             Our restaurant offers impeccable service giving you an opportunity to indulge in both local,
                             international cuisines and our sought-after traditional marinated nyama choma.
                         </p>
-                        <a href="#" class="primary-btn" data-v-09bd9859="">Book Now</a>
+                        <Link :href="route('booking')" class="wow slideInLeft primary-btn" data-wow-duration="1s" data-wow-delay="1s">Book Now</Link>
                     </div>
 
                 </div>

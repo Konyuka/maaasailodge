@@ -1,4 +1,18 @@
 <script setup>
+import { useForm } from "@inertiajs/vue3";
+
+const form = useForm({
+    email: null
+})
+
+const submitSub = () => {
+    form.post(route('register.subscriber'), {
+        onSuccess: () => {
+            alert('Email subscribed sucessfully')
+            form.reset();
+        }
+    })
+}
 
 </script>
 
@@ -39,7 +53,8 @@
                             <ul>
                                 <h4 class="wow animate__lightSpeedInLeft" data-wow-duration="1s">+254 723 160 888</h4>
                                 <h4 class="wow animate__lightSpeedInLeft" data-wow-duration="1.5s">info@maasailodge.com</h4>
-                                <h4 class="wow animate__lightSpeedInLeft" data-wow-duration="2s">Magadi Road, Ongata Rongai</h4>
+                                <h4 class="wow animate__lightSpeedInLeft" data-wow-duration="2s">Magadi Road, Ongata Rongai
+                                </h4>
                             </ul>
                         </div>
                     </div>
@@ -65,17 +80,21 @@
                     <div class="col-lg-5 col-md-8 col-sm-12">
                         <div class="footer__newslatter">
                             <h4>Subscribe our newlatester</h4>
-                            <form action="#" class="wow animate__rubberBand" data-wow-duration="1s">
-                                <input type="text" placeholder="Your E-mail Address">
+                            <form @submit.prevent="submitSub" class="wow animate__rubberBand" data-wow-duration="1s">
+                                <input v-model="form.email" type="text" placeholder="Your E-mail Address">
                                 <button type="submit">Subscribe</button>
                             </form>
                             <div class="footer__newslatter__find">
                                 <h5>Find Us:</h5>
                                 <div class="footer__newslatter__find__links">
-                                    <a href="#"><i class="fa fa-tripadvisor wow animate__lightSpeedIn" data-wow-duration="1.5s"></i></a>
-                                    <a href="#"><i class="fab fa-facebook wow animate__lightSpeedInRight" data-wow-duration="2s"></i></a>
-                                    <a href="#"><i class="fab fa-twitter wow animate__lightSpeedInRight" data-wow-duration="2.5s"></i></a>
-                                    <a href="#"><i class="fab fa-instagram wow animate__lightSpeedInRight" data-wow-duration="3s"></i></a>
+                                    <a href="#"><i class="fa fa-tripadvisor wow animate__lightSpeedIn"
+                                            data-wow-duration="1.5s"></i></a>
+                                    <a href="#"><i class="fab fa-facebook wow animate__lightSpeedInRight"
+                                            data-wow-duration="2s"></i></a>
+                                    <a href="#"><i class="fab fa-twitter wow animate__lightSpeedInRight"
+                                            data-wow-duration="2.5s"></i></a>
+                                    <a href="#"><i class="fab fa-instagram wow animate__lightSpeedInRight"
+                                            data-wow-duration="3s"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +109,8 @@
                                 <!-- <script>
                                     document.write(new Date().getFullYear());
                                 </script> -->
-                                All rights reserved | Developed by <a href="https://colorlib.com" target="_blank" class="wow animate__rubberBand">Michael Saiba</a>
+                                All rights reserved Masai Lodge | Developed by <a href="https://www.linkedin.com/in/michaelsaiba/" target="_blank"
+                                    class="wow animate__rubberBand">Michael Saiba</a>
                             </p>
                         </div>
                     </div>
@@ -103,8 +123,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Footer Section End -->
-</template>
+</div>
+<!-- Footer Section End --></template>
 
 <style></style>

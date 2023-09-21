@@ -12,12 +12,12 @@ import { Link } from "@inertiajs/vue3"
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 
 
-                    <div class="carousel-inner">
+                    <div class="carousel-inner"> 
 
                         <div class="row carousel-item active">
                             <div class="col-lg-12 ">
                                 <div class="hero__text">
-                                    <h5 class="wow slideInLeft" data-wow-duration="2s">Maasai Lodge</h5>
+                                    <h5 class="wow slideInLeft" data-wow-duration="2s">Masai Lodge</h5>
                                     <h2 class="wow slideInRight mobile-text" data-wow-duration="2s">Discover tranquility where nature is
                                         your retreat</h2>
                                 </div> 
@@ -27,7 +27,7 @@ import { Link } from "@inertiajs/vue3"
                         <div class="row carousel-item">
                             <div class="col-lg-12 ">
                                 <div class="hero__text">
-                                    <h5 class="wow slideInRight" data-wow-duration="2s">Maasai Lodge</h5>
+                                    <h5 class="wow slideInRight" data-wow-duration="2s">Masai Lodge</h5>
                                     <h2 class="wow slideInLeft mobile-text" data-wow-duration="2s">Experience the service you will not
                                         find anywhere else</h2>
                                 </div>
@@ -37,7 +37,7 @@ import { Link } from "@inertiajs/vue3"
                         <div class="row carousel-item">
                             <div class="col-lg-12 ">
                                 <div class="hero__text">
-                                    <h5 class="wow slideInLeft" data-wow-duration="2s">Maasai Lodge</h5>
+                                    <h5 class="wow slideInLeft" data-wow-duration="2s">Masai Lodge</h5>
                                     <h2 class="wow slideInRight mobile-text" data-wow-duration="2s">Your stay turns into more than a
                                         vacation</h2>
                                 </div>
@@ -70,7 +70,7 @@ import { Link } from "@inertiajs/vue3"
                         <div class="home__about__text">
                             <div class="section-title">
                                 <h5>WE LET NATURE SPEAK FOR US</h5>
-                                <h1>Maasai Lodge</h1>
+                                <h1>Masai Lodge</h1>
                             </div>
 
                             <div class="wow slideInLeft" data-wow-duration="2s">
@@ -103,7 +103,7 @@ import { Link } from "@inertiajs/vue3"
         <section class="services spad">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6 wow animate__backInLeft" data-wow-duration="1s">
+                    <div class="col-lg-4 col-md-4 col-sm-6 wow animate__bounce" data-wow-duration="1s">
                         <div class="services__item">
                             <img src="../../../heroto/img/maasai/accom.jpg" alt="">
                             <h4>Accomodation</h4>
@@ -111,7 +111,7 @@ import { Link } from "@inertiajs/vue3"
                                 designed to face the Nairobi national park. This will give you a unique experience.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 wow animate__backInRight" data-wow-duration="2s">
+                    <div class="col-lg-4 col-md-4 col-sm-6 wow animate__bounce" data-wow-duration="2s">
                         <div class="services__item">
                             <img src="../../../heroto/img/maasai/conf.jpg" alt="">
                             <h4>Conference Facilities</h4>
@@ -119,7 +119,7 @@ import { Link } from "@inertiajs/vue3"
                                 most serene environment for all levels of proffessional meetings covering your needs.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 wow animate__rubberBand" data-wow-duration="2.5s">
+                    <div class="col-lg-4 col-md-4 col-sm-6 wow animate__bounce" data-wow-duration="2.5s">
                         <div class="services__item">
                             <img src="../../../heroto/img/maasai/bar.jpg" alt="">
                             <h4>Bar & Restaurant</h4>
@@ -147,31 +147,31 @@ import { Link } from "@inertiajs/vue3"
             </div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6 p-0 wow animate__flipInX" data-wow-duration="3s">
+                    <div class="col-lg-4 col-md-6 col-sm-6 p-0 wow animate__bounce" data-wow-duration="1s">
                         <div class="home__room__item set-bg" data-setbg="../../../heroto/img/maasai/parks.jpg">
                             <div class="home__room__title">
                                 <h4>Park View Rooms</h4>
-                                <h2><sup>KES</sup> 10,000<span style="color: white;">/night</span></h2>
+                                <!-- <h2><sup>KES</sup> 10,000<span style="color: white;">/night</span></h2> -->
                             </div>
-                            <a href="#">View Details</a>
+                            <Link :href="route('rooms')">View Details</Link>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 p-0 wow animate__flip" data-wow-duration="3s">
+                    <div class="col-lg-4 col-md-6 col-sm-6 p-0 wow animate__bounce"  data-wow-delay="0.5s" data-wow-duration="2s">
                         <div class="home__room__item set-bg" data-setbg="../../../heroto/img/maasai/garden.jpg">
                             <div class="home__room__title">
                                 <h4>Garden View Rooms</h4>
-                                <h2><sup>KES</sup> 10,000<span style="color: white;">/night</span></h2>
+                                <!-- <h2><sup>KES</sup> 10,000<span style="color: white;">/night</span></h2> -->
                             </div>
-                            <a href="#">View Details</a>
+                            <Link :href="route('rooms')">View Details</Link>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 p-0 wow animate__flipInX" data-wow-duration="3s">
+                    <div class="col-lg-4 col-md-6 col-sm-6 p-0 wow animate__bounce" data-wow-delay="1s" data-wow-duration="3s">
                         <div class="home__room__item set-bg" data-setbg="../../../heroto/img/maasai/st.jpg">
                             <div class="home__room__title">
                                 <h4>Standard Triple Rooms</h4>
-                                <h2><sup>KES</sup> 12,300<span style="color: white;">/night</span></h2>
+                                <!-- <h2><sup>KES</sup> 12,300<span style="color: white;">/night</span></h2> -->
                             </div>
-                            <a href="#">View Details</a>
+                            <Link :href="route('rooms')">View Details</Link>
                         </div>
                     </div>
                 </div>
@@ -195,9 +195,9 @@ import { Link } from "@inertiajs/vue3"
         <section class="testimonial spad">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5 wow animate__lightSpeedInLeft" data-wow-duration="1s">
+                    <div class="mt-5 col-lg-5 wow animate__lightSpeedInLeft" data-wow-duration="1s">
                         <div class="testimonial__pic">
-                            <img src="../../../heroto/img/maasai/test.jpg" alt="">
+                            <img src="../../../heroto/img/maasai/testi.jpeg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -325,7 +325,7 @@ import { Link } from "@inertiajs/vue3"
                                 <h5 class="wow animate__backInUp" data-wow-duration="1s">WHY CHOOSE US</h5>
                                 <h2 class="wow animate__tada">Get the tailored deals for bookings</h2>
                             </div>
-                            <a href="#" class="primary-btn">Write to us <i class="fas fa-paper-plane"></i></a>
+                            <Link  :href="route('contact')" class="primary-btn">Write to us <i class="fas fa-paper-plane"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -345,10 +345,10 @@ import { Link } from "@inertiajs/vue3"
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="gallery__title">
+                            <!-- <div class="gallery__title">
 
                                 <a href="#" class="mt-5 primary-btn wow animate__rubberBand" data-wow-duration="1s">View Gallery <span class="arrow_right"></span></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

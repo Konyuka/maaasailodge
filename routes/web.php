@@ -6,6 +6,7 @@ use Inertia\Inertia;
 
 use App\Http\Controllers\ContactFormController;
 use App\Http\Controllers\BookingController;
+use App\Http\Controllers\SubscriberController;
 
 
 
@@ -17,9 +18,15 @@ Route::get('/', function () {
 Route::get('/our-rooms', function () {
     return Inertia::render('Rooms');
 })->name('rooms');
-Route::get('/room-details', function () {
-    return Inertia::render('Details');
-})->name('room.detail');
+Route::get('/room-details-park-view', function () {
+    return Inertia::render('Detailsp');
+})->name('room.detail.park');
+Route::get('/room-details-garden-view', function () {
+    return Inertia::render('Detailsg');
+})->name('room.detail.garden');
+Route::get('/room-details-villa', function () {
+    return Inertia::render('Detailsv');
+})->name('room.detail.villa');
 Route::get('/our-services', function () {
     return Inertia::render('Services');
 })->name('services');
@@ -38,6 +45,7 @@ Route::get('/booking', function () {
 
 Route::post('/submit-contact-form', [ContactFormController::class, 'submitContactForm'])->name('contact.form');
 Route::post('/submit-booking-form', [BookingController::class, 'submitBookingForm'])->name('submit.booking');
+Route::post('/register-subscriber', [SubscriberController::class, 'registerSubscriber'])->name('register.subscriber');
 
 Route::middleware([
     'auth:sanctum',

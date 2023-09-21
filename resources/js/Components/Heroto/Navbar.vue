@@ -87,7 +87,8 @@ const currentPath = computed(()=>{
                                         
 
                                         <li><Link :class="[ currentPath == '/contact-us' ? 'primary-color': 'black-color' ]"  :href="route('contact')">Contact Us</Link></li>
-                                        <li><Link :class="[ currentPath == '/blogs-and-gallery' ? 'primary-color': 'black-color' ]"  :href="route('media')">Media</Link></li>
+                                        <li><Link :class="[ currentPath == '/blogs-and-gallery' ? 'primary-color': 'black-color' ]"  :href="route('booking')">Media</Link></li>
+                                        <!-- <li><Link :class="[ currentPath == '/blogs-and-gallery' ? 'primary-color': 'black-color' ]"  :href="route('media')">Media</Link></li> -->
                                     </ul>
                                 </nav>
                                 <div class="header__nav__widget">

@@ -45,7 +45,7 @@ const submit = () => {
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <div class="breadcrumb__text">
+                        <div class="breadcrumb__text wow slideInLeft" data-wow-duration="2s">
                             <h1>Booking</h1>
                         </div>
                     </div>

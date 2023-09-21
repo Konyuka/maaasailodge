@@ -1,6 +1,6 @@
 <script setup>
 import Heroto from '@/Layouts/Heroto.vue';
-import { Head } from '@inertiajs/vue3';
+import { Head, Link } from '@inertiajs/vue3';
 
 import Navbar from '@/Components/Heroto/Navbar.vue'
 import Landing from '@/Components/Heroto/Landing.vue'
@@ -18,7 +18,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <div class="breadcrumb__text">
+                        <div class="breadcrumb__text wow slideInLeft" data-wow-duration="2s">
                             <h1>About Us</h1>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
                                 </div>
                             </div>
                             <div class="room__details__title">
-                                <h2>ABOUT MAASAI LODGE</h2>
+                                <h2>ABOUT MASAI LODGE</h2>
                                 <!-- <a href="#" class="primary-btn">Booking Now</a> -->
                             </div>
                             <div class="room__details__desc">
@@ -95,8 +95,8 @@ import Foota from '@/Components/Heroto/Footer.vue'
                     <div class="row">
                         <div class="col-lg-5">
                             <div class="section-title">
-                                <h5>Maasai Lodge</h5>
-                                <h2>Karibu Sana!</h2>
+                                <h1 class="wow slideInLeft" data-wow-duration="1.5s">Masai Lodge</h1>
+                                <h2 class="wow slideInLeft" data-wow-duration="2s">Karibu Sana!</h2>
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -178,7 +178,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
                                 <h5>Maasai Lodge</h5>
                                 <h2>Best Deals</h2>
                             </div>
-                            <a href="#" class="primary-btn">Book Now</a>
+                            <Link :href="route('booking')" class="wow animate__bounce primary-btn" data-wow-duration="2s" data-wow-delay="0.5s">Book Now</Link>
                         </div>
                     </div>
                 </div>
