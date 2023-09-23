@@ -91,6 +91,8 @@ import Foota from '@/Components/Heroto/Footer.vue'
                                     your day with a gentle stroll through our gardens or unwinding on your private balcony,
                                     you'll be immersed in the sights and sounds of nature. Reserve your Garden View Room now
                                     for a serene and rejuvenating experience like no other
+
+                                    
                                 </p>
                             </div>
 
@@ -128,7 +130,8 @@ import Foota from '@/Components/Heroto/Footer.vue'
                                 </p>
                             </div>
 
-                            <Link :href="route('room.detail.villa')">View Details</Link>
+                            <Link :href="route('booking')">View Details</Link>
+                            <!-- <Link :href="route('room.detail.villa')">View Details</Link> -->
                         </div>
                     </div>
 

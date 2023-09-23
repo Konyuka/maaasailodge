@@ -18,7 +18,7 @@ const currentPath = computed(()=>{
             </div>
             <div id="mobile-menu-wrap"></div>
             <div class="offcanvas__btn__widget">
-                <a href="#">Book Now <span class="arrow_right"></span></a>
+                <Link :href="route('booking')">Book Now <span class="arrow_right"></span></Link>
             </div>
             <div class="offcanvas__widget">
                 <ul>

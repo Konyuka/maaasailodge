@@ -1,10 +1,10 @@
 <script setup>
 import Heroto from '@/Layouts/Heroto.vue';
 import { Head } from '@inertiajs/vue3';
-
 import Navbar from '@/Components/Heroto/Navbar.vue'
 import Landing from '@/Components/Heroto/Landing.vue'
 import Foota from '@/Components/Heroto/Footer.vue'
+
 
 </script>
 
@@ -22,103 +22,126 @@ import Foota from '@/Components/Heroto/Footer.vue'
 
                             <div class="room__details__title">
                                 <h2>Premium Room</h2>
-                                <a href="#" class="primary-btn">Book a Reservation</a>
+                                <a href="#" class="primary-btn">Download Price Catalogue</a>
                             </div>
                             <div class="room__details__desc">
                                 <h2>Description:</h2>
-                                <p>We’re halfway through the summer, but while plenty of people are kicking back and
-                                    enjoying their vacations, the social media development teams likely aren’t doing the
-                                    same. In the past two weeks alone, we’ve seen four big new updates that can directly
-                                    impact the social marketing campaigns of hotels, resorts, and other businesses in the
-                                    hospitality industry. Let’s take a close look at each one.</p>
-                                <p>The new desktop version of the site is significantly improved, which will make it easier
-                                    for hotels and resorts to navigate the platform.</p>
-                                <p>There is one big change though that we want to note, and that’s the more live video and
-                                    local moments (the latter of which are based on your location). These will be
-                                    prioritized in users’ feeds, so take advantage of this and create this content to
-                                    improve your reach and connect with more members of your target audience.</p>
-                                <p>We’ve gotten yet another new feature for Instagram Stories, and this time it’s the Chat
-                                    sticker, which allows you to invite Story followers to join in on a new group chat.
-                                    Instagram is currently advertising this as a way to jumpstart big group conversations or
-                                    make plans.</p>
+                                <p>
+                                    At Masai Lodge, we invite you to immerse yourself in the enchanting allure of our
+                                    Garden View Rooms. These unique accommodations offer a perfect blend of comfort and
+                                    natural splendor, ensuring your stay is nothing short of extraordinary.
+
+                                    Imagine waking up to the soft rustling of leaves, the gentle fragrance of blossoming
+                                    flowers, and the picturesque sight of a meticulously manicured garden just outside your
+                                    window. Our Garden View Rooms provide you with the opportunity to escape the ordinary
+                                    and embrace the tranquility of nature.
+
+                                    Whether you're enjoying a morning cup of tea on your private balcony, relaxing in the
+                                    cozy interior of your room, or simply gazing out at the lush greenery, you'll be
+                                    surrounded by the soothing ambiance of our exquisite garden. It's your personal
+                                    sanctuary, a place where you can unwind and rejuvenate.
+
+                                    Book your Garden View Room today and discover a world where nature's beauty and
+                                    luxurious comfort come together in perfect harmony. Let the garden be your backdrop as
+                                    you create cherished memories during your stay at [Hotel Name]. Your escape to serenity
+                                    starts here.
+                                </p>
+
                             </div>
-                            <div class="row">
+
+                            <div class="row mb-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <div class="room__details__facilities">
-                                        <h2>Others facilities:</h2>
+                                        <h2>Double Occupancy:</h2>
                                         <div class="row">
-                                            <div class="col-lg-6">
+
+
+                                            <div class="col-lg-12">
                                                 <ul>
-                                                    <li><span class="icon_check"></span> Takami Bridal Attire</li>
-                                                    <li><span class="icon_check"></span> Esthetic Salon</li>
-                                                    <li><span class="icon_check"></span> Multilingual staff</li>
-                                                    <li><span class="icon_check"></span> Dry cleaning and laundry</li>
-                                                    <li><span class="icon_check"></span> Credit cards accepted</li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <ul>
-                                                    <li><span class="icon_check"></span> Rent-a-car</li>
-                                                    <li><span class="icon_check"></span> Reservation & confirmation</li>
-                                                    <li><span class="icon_check"></span> Babysitter upon request</li>
-                                                    <li><span class="icon_check"></span> 24-hour currency exchange</li>
-                                                    <li><span class="icon_check"></span> 24-hour Manager on Duty</li>
+                                                    <li><span class="icon_check"></span> Bed & Breakfast <i
+                                                            class="mx-4 fas fa-arrow-right"></i> <span>Ksh. 11,000</span>
+                                                    </li>
+                                                    <li><span class="icon_check"></span> Half Board <i
+                                                            class="mx-4 fas fa-arrow-right"></i> <span>Ksh. 14,000</span>
+                                                    </li>
+                                                    <li><span class="icon_check"></span> Full Board <i
+                                                            class="mx-4 fas fa-arrow-right"></i> <span>Ksh. 17,000</span>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <div class="room__details__more__facilities">
-                                        <h2>Most popular facilities:</h2>
+                                    <div class="room__details__facilities">
+                                        <h2>Single Occupancy:</h2>
                                         <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="room__details__more__facilities__item">
-                                                    <div class="icon"><img src="img/rooms/details/facilities/fac-1.png"
-                                                            alt=""></div>
-                                                    <h6>Air Conditioning</h6>
-                                                </div>
-                                                <div class="room__details__more__facilities__item">
-                                                    <div class="icon"><img src="img/rooms/details/facilities/fac-2.png"
-                                                            alt=""></div>
-                                                    <h6>Cable TV</h6>
-                                                </div>
-                                                <div class="room__details__more__facilities__item">
-                                                    <div class="icon"><img src="img/rooms/details/facilities/fac-3.png"
-                                                            alt=""></div>
-                                                    <h6>Free drinks</h6>
-                                                </div>
-                                                <div class="room__details__more__facilities__item">
-                                                    <div class="icon"><img src="img/rooms/details/facilities/fac-4.png"
-                                                            alt=""></div>
-                                                    <h6>Unlimited Wifi</h6>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="room__details__more__facilities__item">
-                                                    <div class="icon"><img src="img/rooms/details/facilities/fac-5.png"
-                                                            alt=""></div>
-                                                    <h6>Restaurant quality</h6>
-                                                </div>
-                                                <div class="room__details__more__facilities__item">
-                                                    <div class="icon"><img src="img/rooms/details/facilities/fac-6.png"
-                                                            alt=""></div>
-                                                    <h6>Service 24/24</h6>
-                                                </div>
-                                                <div class="room__details__more__facilities__item">
-                                                    <div class="icon"><img src="img/rooms/details/facilities/fac-7.png"
-                                                            alt=""></div>
-                                                    <h6>Gym Centre</h6>
-                                                </div>
-                                                <div class="room__details__more__facilities__item">
-                                                    <div class="icon"><img src="img/rooms/details/facilities/fac-8.png"
-                                                            alt=""></div>
-                                                    <h6>Spa & Wellness</h6>
-                                                </div>
+                                            <div class="col-lg-12">
+                                                <ul>
+                                                    <li><span class="icon_check"></span>
+                                                        Bed & Breakfast <i class="mx-4 fas fa-arrow-right"></i> <span>Ksh.
+                                                            7,500 (Kids 4-10Yrs - Ksh. 3,500)</span>
+                                                    </li>
+                                                    <li><span class="icon_check"></span> Half Board <i
+                                                            class="mx-4 fas fa-arrow-right"></i> <span>Ksh. 9,000 (Kids
+                                                            4-10Yrs - Ksh. 4,500)</span>
+                                                    </li>
+                                                    <li><span class="icon_check"></span> Full Board <i
+                                                            class="mx-4 fas fa-arrow-right"></i> <span>Ksh. 11,000 (Kids
+                                                            4-10Yrs - Ksh. 5,500)</span>
+                                                    </li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
+                            </div>
+
+                            <div class="row mb-5 mt-5">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="room__details__facilities">
+                                        <h2>Package includes:</h2>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <ul>
+                                                    <li>Nature walk to Kitengela glass bridge <br> <span>Extra cost of Ksh.
+                                                            200</span>
+                                                    </li>
+                                                    <li>Swimming Pool <br> <span>Ksh. 400 (Kids Ksh 200 & Free for inhouse
+                                                            guests)</span>
+                                                    </li>
+                                                    <li>Game drive to Nairobi National Park <br> <span>Extra cost of Ksh.
+                                                            15,000 <br> Entry fee of $60(Non Residents) &
+                                                            Ksh.500(Residents)</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="room__details__facilities">
+                                        <h2>Meal plans per person:</h2>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <ul>
+                                                    <li>
+                                                        Breakfast <i class="mx-4 fas fa-caret-right"></i> <span>Ksh. 1,500
+                                                            (Kids Below 10Yrs - Ksh. 800)</span>
+                                                    </li>
+                                                    <li>Buffet Lunch <i class="mx-4 fas fa-caret-right"></i> <span>Ksh.
+                                                            2,500 (Kids Below 10Yrs - Ksh. 1,500)</span>
+                                                    </li>
+                                                    <li>Buffet Dinner <i class="mx-4 fas fa-caret-right"></i> <span>Ksh.
+                                                            3,000 (Kids Below 10Yrs - Ksh. 1,500)</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
 
                             <div class="gallery__slider owl-carousel">
@@ -141,8 +164,7 @@ import Foota from '@/Components/Heroto/Footer.vue'
             </div>
         </section>
         <!-- Rooms Details Section End -->
-        <Foota />
-    </Heroto>
-</template>
+    <Foota />
+</Heroto></template>
 
 <style></style>

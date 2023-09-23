@@ -153,7 +153,7 @@ const submit = () => {
                                 <li><span>Services:</span>Wifi, Television, Bathroom,...</li>
                                 <li><span>View:</span>Park View</li>
                             </ul>
-                            <Link :href="route('room.detail')">View Details</Link>
+                            <Link :href="route('room.detail.park')">View Details</Link>
                         </div>
                     </div>
                     <div class="col-lg-6 p-0 order-lg-3 order-md-3 col-md-6">
@@ -175,7 +175,7 @@ const submit = () => {
                                 <li><span>Services:</span>Wifi, Television, Bathroom,...</li>
                                 <li><span>View:</span>Garden View</li>
                             </ul>
-                            <Link :href="route('room.detail')">View Details</Link>
+                            <Link :href="route('room.detail.garden')">View Details</Link>
                         </div>
                     </div>
                     <div class="col-lg-6 p-0 order-lg-6 order-md-6 col-md-6">
@@ -188,7 +188,7 @@ const submit = () => {
                     </div>
                     <div class="col-lg-6 p-0 order-lg-5 order-md-5 col-md-6">
                         <div class="room__text">
-                            <h3>Standard Triple Rooms</h3>
+                            <h3>Standard Triple Rooms/Villa</h3>
                             <h2><sup>KES</sup>12,300<span>/day</span></h2>
                             <ul>
                                 <li><span>Size:</span>30 ft</li>
@@ -197,7 +197,7 @@ const submit = () => {
                                 <li><span>Services:</span>Wifi, Television, Bathroom,...</li>
                                 <li><span>View:</span>City View</li>
                             </ul>
-                            <Link :href="route('room.detail')">View Details</Link>
+                            <Link :href="route('booking')">View Details</Link>
                         </div>
                     </div>
 
