@@ -62,21 +62,17 @@ import Foota from '@/Components/Heroto/Footer.vue'
                             </div>
                             <div class="room__details__desc">
                                 <p>
-                                    Total Area - 300 acres Location - Ongata Rongai, Nairobi Altitude - GPS - Coordinates -
-                                    Access points - Via Masai Lodge Conservancy Road off Magadi Ongata Rongai. Also via The
-                                    Nairobi National Park. Attractions - Nairobi National Park, Elephant Orphanage, Giraffe
-                                    Centre, Ngong Hills, Karen Blixen, National Museums of Kenya Distance to CBD - 20km
-                                    Distance to Airports - 15km to Wilson Airport, 30 km to Jomo Kenyatta International
-                                    Airport
+                                    It has been over 40 years of unmatched hospitality excellence in the wilderness away and
+                                    within close proximity of the CBD. we are a unique beautiful property situated at the
+                                    banks of mbagathi river at the door step of Nairobi national park with breathtaking
+                                    views of the park, Ngong hills and the Nairobi city skyline. Our main aim is to provide
+                                    you with our renowned personalized services of the best host for you. We believe in
+                                    conserving the environment and are responsible for the natural vegetation and the park.
+                                    We believe that serving our guests in a friendly and professional way makes everyone
+                                    happy; the guests, the community, members of staff and the wildlife as we ensure a safe
+                                    and conducive environment for them all.
                                 </p>
-                                <p>
-                                    Total Area - 300 acres Location - Ongata Rongai, Nairobi Altitude - GPS - Coordinates -
-                                    Access points - Via Masai Lodge Conservancy Road off Magadi Ongata Rongai. Also via The
-                                    Nairobi National Park. Attractions - Nairobi National Park, Elephant Orphanage, Giraffe
-                                    Centre, Ngong Hills, Karen Blixen, National Museums of Kenya Distance to CBD - 20km
-                                    Distance to Airports - 15km to Wilson Airport, 30 km to Jomo Kenyatta International
-                                    Airport
-                                </p>
+
 
                             </div>
                         </div>
@@ -86,29 +82,67 @@ import Foota from '@/Components/Heroto/Footer.vue'
         </section>
         <!-- Rooms Details Section End -->
 
+        <!-- Map Begin -->
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255273.71937975904!2d36.50824169453127!3d-1.3854972000000045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f0f174739f131%3A0x783d6449e2ad9122!2sMasai%20Lodge!5e0!3m2!1sen!2ske!4v1693469240668!5m2!1sen!2ske"
+                height="600" style="border:0;" allowfullscreen=""></iframe>
+
+        </div>
+        <!-- Map End -->
+
 
 
         <!-- About Section Begin -->
-        <section class="about">
+        <section class="about mt-5">
             <div class="container">
-                <div class="about__content pb-5">
+
+                <div class="my-element about__content pb-5">
                     <div class="row">
-                        <div class="col-lg-5">
+                        <div class="col-lg-4">
                             <div class="section-title">
                                 <h1 class="wow slideInLeft" data-wow-duration="1.5s">Masai Lodge</h1>
                                 <h2 class="wow slideInLeft" data-wow-duration="2s">Karibu Sana!</h2>
                             </div>
                         </div>
-                        <div class="col-lg-7">
+                        <div class="col-lg-8">
                             <div class="about__text">
                                 <p>20 Kilometers to the Central Bussiness District</p>
-                                <p>
-                                    We let nature speak for us with breathtaking views of the Nairobi national park. Masai
-                                    lodge offers warm hospitality and is located at the banks of Mbagathi river overlooking
-                                    the national park. With over 40 years of peerless hospitality excellence in the
-                                    wilderness, our main aim is to provide you with renowned personalized services in our
-                                    beautiful facility.
-                                </p>
+
+                                <div class="row row-cols-3 sm:row-cols-1 text-left">
+                                    <div class="pb-3">
+                                        <span class="fas fa-caret-down mr-2 fa-xl"></span>
+                                        <h5>Total conservancy Area</h5>
+                                        <div class="ml-5">
+                                            <span>400 Acres</span>
+                                        </div>
+                                    </div>
+                                    <div class="pb-3">
+                                        <span class="fas fa-caret-down mr-2 fa-xl"></span>
+                                        <h5>Physical Location</h5>
+                                        <div class="ml-5">
+                                            <span>Ongata Rongai, Nairobi</span>
+                                        </div>
+                                    </div>
+                                    <div class="pb-3">
+                                        <span class="fas fa-caret-down mr-2 fa-xl"></span>
+                                        <h5>Distance to Airports</h5>
+                                        <div class="ml-5">
+                                            <span>15km to Wilson <br> 30 km to JKIA</span>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="pb-3">
+                                        <span class="fas fa-caret-down mr-2 fa-xl"></span>
+                                        <h5>Scenic Attractions</h5>
+                                        <div class="ml-5 text-left">
+                                            <span> Nairobi National Park <br> Elephant Orphanage <br> Giraffe Centre <br>
+                                                Ngong Hills <br> Karen Blixen <br> National Museums of Kenya </span>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -168,6 +202,8 @@ import Foota from '@/Components/Heroto/Footer.vue'
         </section>
         <!-- About Section End -->
 
+
+
         <!-- Chooseus Section Begin -->
         <div style="margin-bottom: 150px;" class="chooseus spad set-bg" data-setbg="./heroto/img/maasai/swimo.jpg">
             <div class="container">
@@ -178,7 +214,8 @@ import Foota from '@/Components/Heroto/Footer.vue'
                                 <h5>Maasai Lodge</h5>
                                 <h2>Best Deals</h2>
                             </div>
-                            <Link :href="route('booking')" class="wow animate__bounce primary-btn" data-wow-duration="2s" data-wow-delay="0.5s">Book Now</Link>
+                            <Link :href="route('booking')" class="wow animate__bounce primary-btn" data-wow-duration="2s"
+                                data-wow-delay="0.5s">Book Now</Link>
                         </div>
                     </div>
                 </div>
@@ -242,8 +279,14 @@ import Foota from '@/Components/Heroto/Footer.vue'
         </section> -->
         <!-- History Section End -->
 
-        <Foota  />
+        <Foota />
     </Heroto>
 </template>
 
-<style></style>
+<style>
+@media (max-width: 576px) {
+    .my-element {
+        display: none;
+    }
+}
+</style>
