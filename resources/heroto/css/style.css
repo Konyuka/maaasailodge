@@ -164,7 +164,7 @@ ol {
 .set-bg {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: bottom center;
 }
 
 .spad {
@@ -509,7 +509,7 @@ ol {
 
 .hero {
     padding-top: 145px;
-    padding-bottom: 190px;
+    padding-bottom: 200px;
 }
 
 @media (max-width: 767px) {

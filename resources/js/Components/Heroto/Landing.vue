@@ -5,11 +5,11 @@ import { Link } from "@inertiajs/vue3"
 
 <template>
     <div>
-        <section class="hero spad set-bg" data-setbg="../../../heroto/img/maasai/33.jpg">
+        <section class="hero spad set-bg" data-setbg="../../../heroto/img/maasai/3.jpg">
             <div class="">
 
 
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 
 
                     <div class="carousel-inner"> 
@@ -57,7 +57,7 @@ import { Link } from "@inertiajs/vue3"
                         <span class="sr-only">Next</span>
                     </a>
 
-                </div>
+                </div> -->
             </div>
         </section>
         <!-- Hero Section End -->
